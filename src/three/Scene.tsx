@@ -32,7 +32,7 @@ function Ground({ night }: { night: boolean }) {
             maxDepthThreshold={1.4}
             color="#10141a"
             metalness={0.55}
-            mirror={0.55}
+            mirror={0.45}
           />
         )}
       </mesh>
