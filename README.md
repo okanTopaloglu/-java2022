@@ -39,7 +39,7 @@ npm run preview
 ## Yayınlama
 
 `.github/workflows/deploy.yml` her push'ta projeyi derleyip **GitHub Pages**'e
-yükler. Depo ayarlarında *Settings → Pages → Source: GitHub Actions* seçildikten
+yükler. Depo ayarlarında *Settings → Pages → Build and deployment → Source: GitHub Actions* seçildikten
 sonra site `https://<kullanıcı>.github.io/<depo-adı>/` adresinde yayınlanır.
 `vite.config.ts` içindeki `base: './'` sayesinde alt dizinlerde de çalışır;
 Vercel / Netlify'a `dist/` klasörü olarak da yüklenebilir.
