@@ -1,0 +1,31 @@
+{
+  "name": "karavan-3d-tasarim",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Panelvan karavan 3D konfigüratörü – aracını seç, modülleri yerleştir, içinde gez.",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "framer-motion": "^13.4.4",
+    "maath": "^0.10.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^5.9.0",
+    "vite": "^8.3.1"
+  }
+}
